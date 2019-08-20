@@ -1,5 +1,7 @@
 import processing.core.PApplet;
 
+import javax.swing.*;
+
 public class Main extends PApplet {
 
     public void settings() {
@@ -7,6 +9,7 @@ public class Main extends PApplet {
     }
 
     public void setup() {
+        JOptionPane.showMessageDialog(null, "hi");
     }
 
     public void draw() {
